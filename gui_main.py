@@ -235,7 +235,7 @@ class MainApplication(tk.Frame):
         return test
 
     def loadNewSpectrum(self):
-        filepath = filedialog.askopenfilename(initialdir="./reference_spectra", title="Select a File")
+        filepath = filedialog.askopenfilename(initialdir="./analysespektren", title="Select a File")
         poly_degree = 2
         if not filepath: return
         else:
